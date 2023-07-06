@@ -42,3 +42,9 @@
 **8. 您使用或者复制了本仓库和本人制作的任何脚本，则视为 `已接受` 此声明，请仔细阅读，谢谢！**
 
 **9. 本仓库脚本和打包的插件仅用于学习和测试，也请在完成之前，仔细阅读特别声明，完成后，删除脚本和插件，谢谢！**
+
+
+## 定期更新cokie的详细步骤
+- 1.找到掘金某接口请求中的Request Headers中的cookie，然后将cookie值进行赋值
+- 2.打开github仓库 => Settings => Secrets and variables => Actions => Repository secrets => 编辑COOKIE，将掘金最新的cookie值粘贴到其中
+- 3.来到tab中Acions => JueJin_Helper，首先。。。然后执行 run workflow即可
